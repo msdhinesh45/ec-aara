@@ -1,0 +1,47 @@
+.authContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #8a2b6d, #b94b8a, #d16ca9);
+  padding: 20px;
+}
+
+.authCard {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.authLogo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 150px;
+  height: auto;
+}
+
+.btn {
+  background: linear-gradient(90deg, #8a2b6d, #b94b8a);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #b94b8a, #8a2b6d);
+  transform: translateY(-2px);
+}
+
+.authLink {
+  color: #8a2b6d;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.authLink:hover {
+  text-decoration: underline;
+}

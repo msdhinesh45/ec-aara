@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base paragraph styles */
+p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Top Carousel styles */
+.topCarousel {
+  width: 100%;
+  background-color: #761c5a;
+  color: #fff;
+  /* position: relative; */
+  padding: 10px;  
+}
+
+
+
+/* Top carousel responsive media queriy*/
+@media screen and (max-width: 480px) {
+  .topCarousel, p {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  button {
+    right: 15px;
+    top: 9px;
+  }
+}
