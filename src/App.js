@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
+import AboutAara from "./components/About";
 
 function App() {
   return (
@@ -14,12 +15,12 @@ function App() {
         <Navbar />
 
         <Routes>
-          
+
           <Route path="/" element={<Home />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-
+        <AboutAara />
         <Footer />
       </div>
     </Router>
