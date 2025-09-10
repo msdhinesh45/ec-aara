@@ -5,8 +5,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
-import AboutAara from "./components/About";
-
 function App() {
   return (
     <Router>
@@ -20,7 +18,6 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-        <AboutAara />
         <Footer />
       </div>
     </Router>

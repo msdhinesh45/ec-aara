@@ -37,13 +37,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark text-light shadow" style={{ backgroundColor: "#8a2b6d" }}>
+    <nav className="navbar navbar-expand-lg navbar-dark text-light shadow" style={{ backgroundColor: "#8a2b6d", position: "sticky", top: "0", zIndex: "10" }}>
       <div className="container-fluid">
-        <img 
-          className="navbar-brand fw-bold rounded-circle" 
-          src="https://aaradesigner.com/storage/2025/07/aara-designer-studio-main-logo.jpg" 
-          height="70" 
-          width="70" 
+        <img
+          className="navbar-brand fw-bold rounded-circle"
+          src="https://aaradesigner.com/storage/2025/07/aara-designer-studio-main-logo.jpg"
+          height="70"
+          width="70"
           alt="Logo"
         />
         <button
@@ -151,7 +151,7 @@ const Navbar = () => {
             >
               <FaUser className="me-1" />
               <FaSignInAlt className="me-1" />
-              Login 
+              Login
             </a>
           </div>
         </div>

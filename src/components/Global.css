@@ -16,14 +16,16 @@ p {
   background-color: #761c5a;
   color: #fff;
   /* position: relative; */
-  padding: 10px;  
+  padding: 10px;
 }
 
 
 
 /* Top carousel responsive media queriy*/
 @media screen and (max-width: 480px) {
-  .topCarousel, p {
+
+  .topCarousel,
+  p {
     font-size: 12px;
     padding: 10px;
   }
